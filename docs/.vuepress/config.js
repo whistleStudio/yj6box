@@ -10,7 +10,7 @@ import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
 */
 export default defineUserConfig({
   bundler: viteBundler(),
-  title: "义务教育六年级实验箱 教程",
+  title: "创趣智能实验盒——义务教育六年级教程",
   head: [
     ["meta", {"http-equiv": "Pragma", content: "no-cache"}],
     ["meta", {"http-equiv": "Cache-Control", content: "no-cache"}],
@@ -27,10 +27,20 @@ export default defineUserConfig({
         text: "准备工作",
         link: "/getting-started/快速索引.md",
         children: [
-          {text: "快速索引", link: "/getting-started/快速索引.md"},
+          { text: "快速索引", link: "/getting-started/快速索引.md" },
+          { text: "创趣智能实验盒", link: "/getting-started/创趣智能实验盒.md" },
+          { text: "编程星空软件", link: "/getting-started/编程星空软件.md" },
+          { text: "注意事项", link: "/getting-started/注意事项.md" },
 
         ]
-      },    
+      }, 
+      {
+        text: "第一单元 初识过程与控制",
+        link: "/第一单元_初识过程与控制/一分为二开与关.md",
+        children: [
+          { text: "一分为二开与关", link: "/第一单元_初识过程与控制/一分为二开与关.md" },
+        ]
+      }   
     ],
     sidebarDepth: 0
   }),
