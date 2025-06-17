@@ -72,11 +72,11 @@ export default defineUserConfig({
       },
       {
         text: "第五单元 智能种植有方法",
-        link: "/第五单元_智能种植有方法/光照温度要适宜.md",
+        link: "/第五单元_智能种植有方法/土壤湿度控制好.md",
         collapsible: true,
         children: [
+          { text: "土壤湿度控制好", link: "/第五单元_智能种植有方法/土壤湿度控制好.md" },
           { text: "光照温度要适宜", link: "/第五单元_智能种植有方法/光照温度要适宜.md" },
-          { text: "土壤湿度控制好", link: "/第五单元_智能种植有方法/土壤湿度控制好.md" }
         ]
       },
       {
