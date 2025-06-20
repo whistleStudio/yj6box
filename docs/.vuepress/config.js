@@ -10,7 +10,7 @@ import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
 */
 export default defineUserConfig({
   bundler: viteBundler(),
-  title: "创趣智能实验盒——义务教育六年级教程",
+  title: "创趣星盒——义务教育信息科技教学指南",
   head: [
     ["meta", {"http-equiv": "Pragma", content: "no-cache"}],
     ["meta", {"http-equiv": "Cache-Control", content: "no-cache"}],
@@ -27,7 +27,7 @@ export default defineUserConfig({
         link: "/getting-started/快速索引.md",
         children: [
           { text: "快速索引", link: "/getting-started/快速索引.md" },
-          { text: "创智智能实验箱", link: "/getting-started/创智智能实验箱.md" },
+          { text: "创趣星盒", link: "/getting-started/创趣星盒.md" },
           { text: "编程星空软件", link: "/getting-started/编程星空软件.md" },
           { text: "注意事项", link: "/getting-started/注意事项.md" }
         ]
@@ -105,7 +105,7 @@ export default defineUserConfig({
     sidebarDepth: 0
   }),
 
-  base: "/tutorial/yj6box/",
+  base: "/tutorial/starbox_yj/",
 
   plugins: [
     slimsearchPlugin({
