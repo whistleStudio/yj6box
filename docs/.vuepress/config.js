@@ -32,6 +32,9 @@ export default defineUserConfig({
           { text: "注意事项", link: "/getting-started/注意事项.md" }
         ]
       },
+      { 
+        text: "—— 小学 ——",
+      },
       {
         text: "第一单元 初识过程与控制",
         link: "/第一单元_初识过程与控制/一分为二开与关.md",
@@ -100,7 +103,20 @@ export default defineUserConfig({
           { text: "倒车防撞请注意", link: "/第七单元_汽车里的小奥秘/倒车防撞请注意.md" },
           { text: "定速巡航的控制", link: "/第七单元_汽车里的小奥秘/定速巡航的控制.md" },
         ]
-      }
+      },
+      { 
+        text: "—— 初中 ——",
+      },
+      {
+        text: "第一单元 从感知到物联",
+        link: "/初中第一单元_从感知到物联/环境数据要感知.md",
+        collapsible: true,
+        children: [
+          { text: "环境数据要感知", link: "/初中第一单元_从感知到物联/环境数据要感知.md" },
+          { text: "物物相连有价值", link: "/初中第一单元_从感知到物联/物物相连有价值.md" },
+          { text: "物联功能趣体验", link: "/初中第一单元_从感知到物联/物联功能趣体验.md" }
+        ]
+      },
     ],
     sidebarDepth: 0
   }),
